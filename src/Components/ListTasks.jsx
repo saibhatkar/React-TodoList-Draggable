@@ -18,7 +18,7 @@ const ListTasks = ({ tasks, setTasks }) => {
 
   const statuses = ["todo", "inprogress", "closed"];
 
-
+ds
   return (
     <div className='flex gap-16'>
       {statuses.map((status, index) => (
